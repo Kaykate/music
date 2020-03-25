@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>播放器</title>
+        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+        <script src=jquery-1.12.4.min.js></script>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/fontawesome.css">
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="js/player.js"></script>
+        <script src="js/progress.js"></script>
+        <script src="js/lyric.js"></script>
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+<div class="header">
+    <h1 class="logo"><a href="#"></a></h1>
+    <ul class="register">
+        <li>登录</li>
+        <li>注册</li>
+    </ul>
+</div>
+<div class="content">
+    <div class="content_in">
+        <div class="content_left">
+            <div class="content_toolbar">
+                <span><i class="fa fa-cloud" aria-hidden="true"></i>收藏</span>
+                <span><i class="fa fa-diamond" aria-hidden="true"></i> 添加到</span>
+                <span><i class="fa fa-gift" aria-hidden="true"></i>下载</span>
+                <span><i class="fa fa-history" aria-hidden="true"></i>删除</span>
+                <span><i class="fa fa-reply" aria-hidden="true"></i>清空列表</span>
+            </div>
+            <div class="content_list" data-mcs-theme="minimal-dark">
+                <ul>
+                    <li class="list_title">
+                        <div class="list_check"><i></i></div>
+                        <div class="list_number"></div>
+                        <div class="list_name">歌曲</div>
+                        <div class="list_singer">歌手</div>
+                        <div class="list_time">时长</div>
+                    </li>
+                   
+                  
+                </ul>
+            </div>
+        </div>
+        <div class="content_right">
+            <div class="song_info">
+                <a href="javascript:;" class="song_info_pic">
+                    <img src="images/lnj.jpg" alt="">
+                </a>
+                <div class="song_info_name">歌曲名称
+                    <a href="javascript:;"> BORN FOR THIS</a>
+                </div>
+                <div class="song_info_singer">歌手名称
+                    <a href="javascript:;"> score</a>
+                </div>
+                <div class="song_info_album">专辑名称
+                    <a href="javascript:;"> BORN </a>
+                </div>
+            </div>
+            <div class="song_lyric_container">
+            <ul class="song_lyric">
+                
+            </ul>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer_in">
+        <a href="javascript:;"class="music_pre"><i class="fa fa-step-backward fa-2x" aria-hidden="true"></i></a>
+        <a href="javascript:;"class="music_play"><i class="fa fa-play fa-3x" aria-hidden="true"></i></a>
+        <a href="javascript:;"class="music_next"><i class="fa fa-step-forward fa-2x" aria-hidden="true"></i></a>
+        <div class="music_progress_info">
+            <div class="music_progress_top">
+                <span class="music_progress_name">歌曲名</span>
+                <span class="music_progress_time">00:56/05:06</span>
+            </div>
+            <div class="music_progress_bar">
+                <div class="music_progress_line">
+                    <div class="music_progress_dot"></div>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:;"class="music_mode"><i class="fa fa-random fa-2x" aria-hidden="true"></i></a>
+        <a href="javascript:;"class="music_fav"><i class="fa fa-star-o fa-2x" aria-hidden="true"></i></a>
+        <a href="javascript:;"class="music_down"><i class="fa fa-arrow-circle-down fa-2x" aria-hidden="true"></i></a>
+        <a href="javascript:;"class="music_comment"><i class="fa fa-commenting-o fa-2x" aria-hidden="true"></i></a>
+        <a href="javascript:;"class="music_only"><i class="fa fa-toggle-off fa-2x" aria-hidden="true"></i></a>
+        <div class="music_voice_info">
+            <a href="javascript:;" class="voice"> <i class="fa fa-volume-up fa-2x" aria-hidden="true"></i></a>
+            <div class="music_voice_bar">
+                <div class="music_voice_line">
+                    <div class="music_voice_dot"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mask_bg"></div>
+<div class="mask"></div>
+<audio src=""></audio>
+    </body>
+</html>
